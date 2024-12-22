@@ -1019,6 +1019,15 @@ const options = mkOptions(CONFIG, {
                 rightClick: opt(''),
                 middleClick: opt(''),
             },
+            cava: {
+                length: opt(16),
+                glyphs: opt(['⣀', '⣄', '⣆', '⣇', '⣧', '⣷', '⣿']),
+                leftClick: opt(''),
+                rightClick: opt(''),
+                middleClick: opt(''),
+                scrollUp: opt(''),
+                scrollDown: opt(''),
+            },
             cpu: {
                 icon: opt(''),
                 label: opt(true),

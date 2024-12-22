@@ -13,6 +13,7 @@ import {
 
     // Custom Modules
     Ram,
+    Cava,
     Cpu,
     CpuTemp,
     Storage,
@@ -51,6 +52,7 @@ const widget = {
     clock: (): JSX.Element => WidgetContainer(Clock()),
     systray: (): JSX.Element => WidgetContainer(SysTray()),
     ram: (): JSX.Element => WidgetContainer(Ram()),
+    cava: (): JSX.Element => WidgetContainer(Cava()),
     cpu: (): JSX.Element => WidgetContainer(Cpu()),
     cputemp: (): JSX.Element => WidgetContainer(CpuTemp()),
     storage: (): JSX.Element => WidgetContainer(Storage()),

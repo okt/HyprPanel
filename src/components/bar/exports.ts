@@ -12,6 +12,7 @@ import { SysTray } from '../../components/bar/modules/systray/index';
 
 // Custom Modules
 import { Ram } from '../../components/bar/modules/ram/index';
+import { CavaWidget as Cava } from '../../components/bar/modules/cava/index';
 import { Cpu } from '../../components/bar/modules/cpu/index';
 import { CpuTemp } from '../../components/bar/modules/cputemp/index';
 import { Storage } from '../../components/bar/modules/storage/index';
@@ -40,6 +41,7 @@ export {
     // Custom Modules
     Ram,
     Cpu,
+    Cava,
     CpuTemp,
     Storage,
     Netstat,

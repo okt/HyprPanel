@@ -41,6 +41,17 @@ export const CustomModuleSettings = (): JSX.Element => {
                 <Option opt={options.bar.customModules.ram.rightClick} title="Right Click" type="string" />
                 <Option opt={options.bar.customModules.ram.middleClick} title="Middle Click" type="string" />
 
+                {/* Cava Section */}
+                <Header title="Cava" />
+                {/* <Option opt={options.theme.bar.buttons.modules.cpu.enableBorder} title="Button Border" type="boolean" /> */}
+                <Option opt={options.bar.customModules.cava.length} title="Length" type="number" />
+                <Option opt={options.bar.customModules.cava.glyphs} title="Glyphs" type="string" />
+                <Option opt={options.bar.customModules.cava.leftClick} title="Left Click" type="string" />
+                <Option opt={options.bar.customModules.cava.rightClick} title="Right Click" type="string" />
+                <Option opt={options.bar.customModules.cava.middleClick} title="Middle Click" type="string" />
+                <Option opt={options.bar.customModules.cava.scrollUp} title="Scroll Up" type="string" />
+                <Option opt={options.bar.customModules.cava.scrollDown} title="Scroll Down" type="string" />
+
                 {/* CPU Section */}
                 <Header title="CPU" />
                 <Option opt={options.theme.bar.buttons.modules.cpu.enableBorder} title="Button Border" type="boolean" />
